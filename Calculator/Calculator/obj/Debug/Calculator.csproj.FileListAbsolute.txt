@@ -1,0 +1,10 @@
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Nelly\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache

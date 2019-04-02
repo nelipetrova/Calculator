@@ -44,6 +44,8 @@ namespace Calculator
           
         }
 
+       
+
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
@@ -70,11 +72,20 @@ namespace Calculator
             {
                 oddsUs = Convert.ToDouble(textBox1.Text);
                 pow = Convert.ToDouble(textBox2.Text);
-                result = (((pow / 100) * (-100/oddsUs)) - 1) * 100;
+                if (textBox1.Text.Contains("-"))
+                {
+                    result = (((pow / 100) * (-100 / oddsUs + 1)) - 1) * 100;
+                    textBox3.Text = result.ToString();
+                }
+                else
+                {
+                    result = (((pow / 100) * (oddsUs/100 + 1)) - 1) * 100;
+                    textBox3.Text = result.ToString();
+                }
             }
             else if(!radioButton1.Checked& !radioButton1.Checked)
             {
-                MessageBox.Show("Please choose odds");
+                MessageBox.Show("Please choose Decimal or US");
             }
             else
             { if (textBox1.Text == "")

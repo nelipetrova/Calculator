@@ -37,14 +37,14 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(136, 50);
+            this.textBox1.Location = new System.Drawing.Point(145, 50);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(81, 29);
@@ -75,13 +75,13 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 110);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 13);
+            this.label2.Size = new System.Drawing.Size(117, 13);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Probability of winning";
+            this.label2.Text = "Probability of winning %";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(136, 107);
+            this.textBox2.Location = new System.Drawing.Point(145, 107);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(81, 30);
@@ -92,17 +92,17 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(22, 171);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 13);
+            this.label3.Size = new System.Drawing.Size(116, 13);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Return of investment";
+            this.label3.Text = "Return of investment %";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(136, 159);
+            this.textBox3.Location = new System.Drawing.Point(145, 162);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(81, 25);
+            this.textBox3.Size = new System.Drawing.Size(81, 31);
             this.textBox3.TabIndex = 10;
             // 
             // button2
@@ -126,17 +126,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(25, 8);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(63, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Decimal";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -147,6 +136,17 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "US";
             this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(25, 8);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(63, 17);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Decimal";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
